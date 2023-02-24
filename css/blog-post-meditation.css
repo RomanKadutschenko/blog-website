@@ -1,0 +1,78 @@
+@import "./components/header.css";
+@import "./components/footer.css";
+
+@import "./components/button.css";
+@import "./components/author.css";
+@import "./components/figure.css";
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+p,
+li {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: normal;
+}
+
+li {
+  margin: 1rem;
+}
+
+.container {
+  color: #003445;
+  width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 100px 1fr 100px;
+  grid-row-gap: 10px;
+  grid-template-areas:
+    "header header header header header"
+    ". main main main ."
+    "footer footer footer footer footer";
+}
+
+main {
+  grid-area: main;
+  margin-bottom: 30px;
+}
+
+article {
+  padding: 24px;
+}
+
+hr {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e3e3e3;
+}
+
+.headline-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

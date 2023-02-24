@@ -1,0 +1,18 @@
+figure {
+  margin: 0;
+  display: inline-flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+figure img {
+  height: 300px;
+}
+
+figure figcaption {
+  padding: 6px;
+  text-align: center;
+  background-color: #003445;
+  color: white;
+}

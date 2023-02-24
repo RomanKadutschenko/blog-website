@@ -1,0 +1,80 @@
+button {
+  padding: 0px 24px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  border-style: none;
+}
+/*button:hover {
+  background-color: #003445;
+}
+button:active {
+  background-color: #128d8b;
+}*/
+
+.primary {
+  background-color: #003445;
+  color: #e6f4f1;
+}
+.primary:hover {
+  background-color: #128d8b;
+}
+
+.secondary {
+  background-color: #e6f4f1;
+  color: #003445;
+}
+
+.secondary:hover {
+  background-color: #000;
+}
+
+/* tablet */
+/*@media (min-width: 768px) {
+  button {
+    padding: 0px 24px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  button:hover {
+    background-color: #21a09c;
+  }
+  button:active {
+    background-color: #128d8b;
+  }
+}*/
+
+/* desktop */
+/*
+  @media (min-width: 1024px) {
+    button {
+      padding: 0px 32px;
+      height: 64px;
+      font-style: normal;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    button:hover {
+      background-color: #21a09c;
+    }
+    button:active {
+      background-color: #128d8b;
+    }
+  }
+  */
+
+/* button-color: #3cc8be;
+button:hover {
+  background-color: #21a09c;
+}
+button:active {
+  background-color: #128d8b;
+}
+  */

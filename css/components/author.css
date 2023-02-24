@@ -1,0 +1,26 @@
+.author-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+address {
+  font-size: 12px;
+}
+
+.avatar {
+  height: 64px;
+  width: 64px;
+  border-radius: 999px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.avatar img {
+  object-fit: cover;
+  width: 64px;
+  height: 64px;
+}
