@@ -16,17 +16,11 @@ aside {
 
 @media (min-width: 1024px) {
   aside {
-    grid-area: aside;
-    display: flex;
-    flex-direction: column;
     gap: 24px;
-    justify-content: flex-start;
-    align-items: center;
     padding: 20px;
   }
 
   .categories-button-container {
-    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
