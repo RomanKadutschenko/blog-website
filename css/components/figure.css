@@ -5,9 +5,14 @@ figure {
   border-radius: 8px;
   overflow: hidden;
 }
-
 figure img {
-  height: 300px;
+  height: 150px;
+}
+
+@media (min-width: 1024px) {
+  figure img {
+    height: 300px;
+  }
 }
 
 figure figcaption {
