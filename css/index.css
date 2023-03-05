@@ -34,11 +34,17 @@ h2 {
 
 h3 {
   font-size: 16px;
+  color: #003445;
 }
 
 p {
   margin: 0;
   font-size: 12px;
+}
+
+a {
+  color: #450da6;
+  text-decoration: none;
 }
 
 /* Mobile*/
